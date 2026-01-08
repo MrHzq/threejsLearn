@@ -10,6 +10,7 @@
     "dev-bg": "vite packages/buffer-geometry",
     "dev-plm": "vite packages/point-line-mesh",
     "dev-mt": "vite packages/mountain-terrain",
+    "dev-mct": "vite packages/material-color-texture",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
