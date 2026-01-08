@@ -11,6 +11,7 @@
     "dev-plm": "vite packages/point-line-mesh",
     "dev-mt": "vite packages/mountain-terrain",
     "dev-mct": "vite packages/material-color-texture",
+    "dev-uv": "vite packages/texture-uv",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
