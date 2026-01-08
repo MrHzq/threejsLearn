@@ -1,0 +1,25 @@
+{
+  "name": "data-gui",
+  "version": "1.0.0",
+  "description": "Data Gui",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "three.js",
+    "3d",
+    "scene"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.182.0",
+    "vite": "^7.3.1"
+  }
+}
