@@ -13,6 +13,7 @@
     "dev-mct": "vite packages/material-color-texture",
     "dev-uv": "vite packages/texture-uv",
     "dev-c": "vite packages/curve",
+    "dev-gg": "vite packages/generate-geometry",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
