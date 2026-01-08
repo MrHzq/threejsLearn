@@ -7,6 +7,7 @@
     "dev": "vite packages/first-scene",
     "dev-dg": "vite packages/data-gui",
     "dev-pc": "vite packages/perspective-camera",
+    "dev-bg": "vite packages/buffer-geometry",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
