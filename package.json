@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite packages/first-scene",
     "dev-dg": "vite packages/data-gui",
+    "dev-pc": "vite packages/perspective-camera",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
