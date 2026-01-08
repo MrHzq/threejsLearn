@@ -22,15 +22,14 @@ renderer.setSize(width, height);
 
 let i = 0;
 function render() {
-  if (i < tubePoints.length) {
-    if (i < 0) i = 0;
+  if (i < tubePoints.length - 1) {
     camera.position.copy(tubePoints[i]);
     camera.lookAt(tubePoints[i + 1]);
-    // i++;
+    i++;
   } else i = 0;
 
   // 水平方向偏移
-  mesh.material.map.offset.y += 0.01 / 10;
+  mesh.material.map.offset.y += 0.01;
 
   renderer.render(scene, camera);
   requestAnimationFrame(render);

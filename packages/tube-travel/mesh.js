@@ -26,6 +26,6 @@ const material = new THREE.MeshBasicMaterial({
 
 const mesh = new THREE.Mesh(geometry, material);
 
-export const tubePoints = path.getSpacedPoints(100);
+export const tubePoints = path.getSpacedPoints(1000);
 
 export default mesh;
