@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import mesh from "./mesh.js";
+import mesh from "./mesh5.js";
 
 const scene = new THREE.Scene();
 
