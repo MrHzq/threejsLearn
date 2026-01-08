@@ -4,7 +4,7 @@
   "private": true,
   "description": "A pnpm workspace for learning Three.js",
   "scripts": {
-    "dev": "echo 'Starting workspace development'",
+    "dev": "vite packages/first-scene",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
