@@ -6,14 +6,15 @@ const scene = new THREE.Scene();
 
 scene.add(mesh);
 
-const axesHelper = new THREE.AxesHelper(200);
-scene.add(axesHelper);
+const pointLight = new THREE.PointLight(0xffffff, 200);
+pointLight.position.set(80, 80, 80);
+scene.add(pointLight);
 
 const width = window.innerWidth;
 const height = window.innerHeight;
 
-const camera = new THREE.PerspectiveCamera(60, width / height, 1, 1000);
-camera.position.set(0, 100, 200);
+const camera = new THREE.PerspectiveCamera(60, width / height, 1, 10000);
+camera.position.set(200, 200, 200);
 camera.lookAt(0, 0, 0);
 
 const renderer = new THREE.WebGLRenderer();
