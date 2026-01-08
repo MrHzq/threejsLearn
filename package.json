@@ -5,6 +5,7 @@
   "description": "A pnpm workspace for learning Three.js",
   "scripts": {
     "dev": "vite packages/first-scene",
+    "dev-dg": "vite packages/data-gui",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
