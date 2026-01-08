@@ -13,22 +13,22 @@ const scene = new THREE.Scene();
   });
   // 物体：立方体 + 材质
   const mesh = new THREE.Mesh(geometry, material);
-  mesh.position.set(0, 0, 0);
-  scene.add(mesh);
+  mesh.position.set(0, 0, 0); // 立方体的位置:0, 0, 0
+  scene.add(mesh); // 场景添加立方体
 }
 
 // 场景：添加一个点光源
 {
   const pointLight = new THREE.PointLight(0xffffff, 10000); // 点光源的颜色:白色，强度:10000
-  pointLight.position.set(60, 60, 60); // 点光源的位置:80, 80, 80，默认照向 0,0,0 的方向
-  scene.add(pointLight);
+  pointLight.position.set(80, 80, 80); // 点光源的位置: 80, 80, 80，默认照向 0,0,0 的方向
+  scene.add(pointLight); // 场景添加点光源
 }
 
 // 场景：添加一个坐标系辅助器 AxesHelper
 {
   // 红色轴 X 轴，绿色轴 Y 轴，蓝色轴 Z 轴
   const axesHelper = new THREE.AxesHelper(200); // 坐标轴的长度:200
-  scene.add(axesHelper);
+  scene.add(axesHelper); // 场景添加坐标轴辅助器
 }
 
 // 场景：添加一个相机
