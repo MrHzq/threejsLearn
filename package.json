@@ -1,0 +1,22 @@
+{
+  "name": "threejs-learn-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A pnpm workspace for learning Three.js",
+  "scripts": {
+    "dev": "echo 'Starting workspace development'",
+    "build": "echo 'Building workspace'",
+    "test": "echo 'Running workspace tests'"
+  },
+  "keywords": [
+    "three.js",
+    "3d",
+    "workspace",
+    "pnpm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
