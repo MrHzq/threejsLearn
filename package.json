@@ -9,6 +9,7 @@
     "dev-pc": "vite packages/perspective-camera",
     "dev-bg": "vite packages/buffer-geometry",
     "dev-plm": "vite packages/point-line-mesh",
+    "dev-mt": "vite packages/mountain-terrain",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
