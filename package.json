@@ -4,7 +4,7 @@
   "private": true,
   "description": "A pnpm workspace for learning Three.js",
   "scripts": {
-    "dev": "vite packages/first-scene",
+    "dev": "vite packages/001-first-scene",
     "dev-dg": "vite packages/data-gui",
     "dev-pc": "vite packages/perspective-camera",
     "dev-bg": "vite packages/buffer-geometry",
