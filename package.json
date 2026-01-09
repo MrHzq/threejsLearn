@@ -14,7 +14,8 @@
     "dev-uv": "vite packages/texture-uv",
     "dev-c": "vite packages/curve",
     "dev-gg": "vite packages/generate-geometry",
-    "dev-tt": "vite packages/tube-travel",
+    "dev-tt": "vite packages/013-tube-travel",
+    "dev-it": "vite packages/014-infinite-tunnel",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
