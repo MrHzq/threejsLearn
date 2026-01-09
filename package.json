@@ -16,6 +16,7 @@
     "dev-gg": "vite packages/generate-geometry",
     "dev-tt": "vite packages/013-tube-travel",
     "dev-it": "vite packages/014-infinite-tunnel",
+    "dev-h": "vite packages/015-house",
     "build": "echo 'Building workspace'",
     "test": "echo 'Running workspace tests'"
   },
